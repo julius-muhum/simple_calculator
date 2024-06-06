@@ -4,7 +4,9 @@ import React from 'react';
 function App(){
     return(
         <div className="App">
-            <p>This is all thats here as of now</p>
+            <header className="App-header">
+                <p>Some text on the screen</p>
+            </header>
         </div>
     )
     
