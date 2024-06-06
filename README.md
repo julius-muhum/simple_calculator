@@ -1,1 +1,1 @@
-# simple_calculator
+Hello, my name is Julius M. This is one of my first solo side projects that I am completing! It is currently June of 2024 as I am writing this README file. My goal for this project, is just to create a simple webpage that emulates a calculator visually, and can perform simple operations.
