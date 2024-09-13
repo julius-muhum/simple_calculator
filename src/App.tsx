@@ -2,6 +2,7 @@
 import { useState } from "react";
 import React from 'react';
 import { Button, Form } from "react-bootstrap";
+import './App.css'
 
 function App(){
     const [calculation,setCalculation] = useState<string>("");
@@ -23,10 +24,10 @@ function App(){
     }
     return(
         <div className="App">
-            <header className="App-header">
+            <div className="App-header">
                 <p>Simple Calculator</p>
-            </header>
-            <Form.Group controlId="formMovieName">
+            </div>
+                <Form.Group controlId="formMovieName">
                 <Form.Label>Enter Your Calculation here. Use only addition
                     subtraction, multiplication, or division.
                 </Form.Label>
