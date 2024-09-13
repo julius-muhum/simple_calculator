@@ -3,7 +3,6 @@ import { useState } from "react";
 import React from 'react';
 import { Button, Col, Form, Row } from "react-bootstrap";
 import './App.css';
-//import img from './calculatorimage.jpg';
 
 function App(){
     //const img = require('./calculatorimage.jpg');
