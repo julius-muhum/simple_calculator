@@ -38,7 +38,7 @@ function App(){
             <div className="App-textbox"><Form.Label>Enter Your Calculation here. Use only addition subtraction, multiplication, or division. </Form.Label></div>
             <div className="App-textbox"> <Form.Group controlId="formMovieName"> <Form.Control value={calculation} onChange={updateCalculation}/> </Form.Group> </div>
             <p><Button onClick={performCalculation}>Get Answer!</Button></p></Col>
-            <Col><img src = "calculatorimage.jpg"/></Col>
+            <Col><img src = "calculatorimage.jpg" alt="Image"/></Col>
             </Row>
             </div>
         </div>
